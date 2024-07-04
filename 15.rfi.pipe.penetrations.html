@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Actions</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button onclick="printPage()">Print</button>
+        <button onclick="downloadPDF()">Download as PDF</button>
+        <button onclick="sendEmail()">Send by Email</button>
+        <button onclick="sendWhatsApp()">Send by WhatsApp</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Code</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SA3-PLN-CE-0038</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SA3-PLN-CE-0061</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SA3-PLN-CE-0145</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SA3-PLN-CE-0205</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>SA3-PLN-CE-0291</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>SA3-PLN-CE-0403</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>SA3-PLN-CE-0463</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>SA3-PLN-CE-0578</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>SA3-PLN-CE-0699</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>SA3-PLN-CE-0723</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>SA3-PLN-CE-0786</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>SA3-PLN-CE-0906</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>SA3-PLN-CE-0996</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>SA3-PLN-CE-1064</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>SA3-PLN-CE-1142</td>
+                <td>All pipe penetrations through the shaft walls shall be provided with proper watertight maintenance-free pipe wall ducts - Link Seal or equivalent and sealed with approved material. Foam or similar material is not acceptable.</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        function printPage() {
+            window.print();
+        }
+
+        function downloadPDF() {
+            // Add your PDF download logic here
+            alert('Download as PDF');
+        }
+
+        function sendEmail() {
+            // Add your email sending logic here
+            alert('Send by Email');
+        }
+
+        function sendWhatsApp() {
+            // Add your WhatsApp sending logic here
+            alert('Send by WhatsApp');
+        }
+    </script>
+</body>
+</html>
